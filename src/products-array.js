@@ -21,6 +21,7 @@ export default [
     videoTitle: "Energy Crisis--Energy Drink Review #2",
     videoCode: "a6wTeej6BB8",
     dateReleased: "2011-02-27T00:00:00.000Z",
+    rating: 0,
     __v: 0,
   },
   {
@@ -59,6 +60,7 @@ export default [
     videoTitle: "Energy Crisis--Energy Drink Review #5",
     videoCode: "WY6DYdJd1pk",
     dateReleased: "2011-03-27T00:00:00.000Z",
+    rating: 0,
     __v: 0,
   },
   {
@@ -71,6 +73,7 @@ export default [
     videoTitle: "Energy Crisis--Energy Drink Review #6",
     videoCode: "6mYvBa61U8c",
     dateReleased: "2011-04-03T00:00:00.000Z",
+    rating: 0,
     __v: 0,
   },
 ];
