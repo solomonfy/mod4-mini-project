@@ -1,6 +1,6 @@
 export default [
   {
-    _id: "5f6259452538d1002a38f27c",
+    id: "5f6259452538d1002a38f27c",
     product: "5 Hour Energy Pomegranate",
     manufacturer: "Living Essentials",
     category: "Energy Crisis",
@@ -12,7 +12,7 @@ export default [
     __v: 0,
   },
   {
-    _id: "5f6259462538d1002a38f27d",
+    id: "5f6259462538d1002a38f27d",
     product: "Monster Energy Drink Regular (green)",
     manufacturer: "Monster Beverage",
     category: "Energy Crisis",
@@ -25,7 +25,7 @@ export default [
     __v: 0,
   },
   {
-    _id: "5f6259462538d1002a38f27e",
+    id: "5f6259462538d1002a38f27e",
     product: "Fuel",
     manufacturer: "Living Essentials",
     category: "Energy Crisis",
@@ -38,7 +38,7 @@ export default [
     __v: 0,
   },
   {
-    _id: "5f6259462538d1002a38f27f",
+    id: "5f6259462538d1002a38f27f",
     product: "Venom Energy Black Mamba",
     manufacturer: "Dr Pepper Snapple Group",
     category: "Energy Crisis",
@@ -51,7 +51,7 @@ export default [
     __v: 0,
   },
   {
-    _id: "5f6259462538d1002a38f280",
+    id: "5f6259462538d1002a38f280",
     product: "Red Bull",
     manufacturer: "Red Bull GmbH",
     category: "Energy Crisis",
@@ -64,7 +64,7 @@ export default [
     __v: 0,
   },
   {
-    _id: "5f6259462538d1002a38f281",
+    id: "5f6259462538d1002a38f281",
     product: "Amp Energy",
     manufacturer: "PepsiCo",
     category: "Energy Crisis",

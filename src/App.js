@@ -13,16 +13,30 @@ class App extends React.Component {
     };
     console.log(products);
   }
+  upRating = (prodId) => {
+    // console.log("Clicked");
+    let newProducts = this.state.products.map((product) => {
+      if (product.id === prodId) {
+        //
+        product.rating += 1
+      }
+        return product
+    });
+    // debugger;
+    this.setState({
+      products: newProducts,
+    });
+  };
 
   
   downRating = (prodId) => {
     // console.log("Clicked");
     let newProducts = this.state.products.map((product) => {
-      if (product._id === prodId) {
+      if (product.id === prodId) {
         //
-         return { ...product, rating: - 1};
+        product.rating -= 1
       }
-      return product;
+        return product
     });
     // debugger;
     this.setState({
@@ -35,7 +49,7 @@ class App extends React.Component {
       <div>
         <NavBar />
         {this.state.products.map((prod) => (
-          <ProductInfo prod={prod} upRating={this.upRating} />
+          <ProductInfo prod={prod} upRating={this.upRating} downRating={this.downRating} />
         ))}
       </div>
     );

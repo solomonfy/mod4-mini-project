@@ -10,10 +10,10 @@ class ProductInfo extends React.Component {
         <span>Manufacturer: {this.props.prod.manufacturer}</span>
         <h4>Rating: {this.props.prod.rating}</h4>
         {/* category image rating */}
-        <button onClick={() => this.props.upRating(this.props.prod._id)}>
+        <button onClick={() => this.props.upRating(this.props.prod.id)}>
           Like
         </button>
-        <button onClick={() => this.props.downRating(this.props.prod_id)}>Dislike</button>
+        <button onClick={() => this.props.downRating(this.props.prod.id)}>Dislike</button>
         <br />
       </div>
     );
